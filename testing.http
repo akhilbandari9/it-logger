@@ -1,0 +1,18 @@
+### //get all posts
+GET http://localhost:5000/logs
+
+### //get all technicians
+GET http://localhost:5000/techs
+
+### //add a technician
+POST http://localhost:5000/techs HTTP/1.1
+content-type: application/json 
+
+{
+    
+    "firstName": "Akhi",
+    "lastLame" : "Bandari"
+}
+###
+DELETE http://localhost:5000/techs/4 HTTP/1.1
+
